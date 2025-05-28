@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Ferrara - Il mio sito e gioco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ciao, sono Michael Ferrara! 👋</h1>
+        <p>È la prima volta che creo un sito da solo usando <strong>HTML, CSS e JavaScript</strong>!</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>Chi sono</h2>
+            <p>Sono un appassionato di tecnologia e sto imparando a creare siti web. Questo è il mio primo progetto con un mini-gioco!</p>
+        </section>
+
+        <section class="game-container">
+            <h2>🎮 Evita i muri! (Usa WASD)</h2>
+            <div class="game-area" id="gameArea">
+                <div class="player" id="player"></div>
+            </div>
+            <p id="score">Punteggio: 0</p>
+            <button id="startButton">Inizia Gioco</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Creato con ❤️ da Michael Ferrara</p>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>
